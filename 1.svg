@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="700" height="500">
+<defs>
+	<linearGradient id="blend">
+		<stop offset="0%" stop-color="#ffffff"/>
+		<stop offset="100%" stop-color="#000000"/>
+	</linearGradient>
+	<mask id="star" x="0" y="0" width="400" height="381">
+		<polygon points="390,12 440154 590,157 470,250 513,393 390,307 266,393 310,248 189.157 340,154 390,12" style="fill: url(#blend)"/>
+	</mask>
+</defs>
+<image xlink:href="1.png" width="600" height="400" style="mask: url(#star);"/>
+</svg>
